@@ -5,7 +5,7 @@ Training different models on the hotel dataset
 
 # Their comparisons are as follows:
 
-Decision trees. 
+## Decision trees. 
 
 acc=0.9092365800618061
 f1=0.795
@@ -13,7 +13,7 @@ prec=0.8286
 recall=0.9092365800618061
 
 -------------------------------
-Random Forest
+## Random Forest
 RF Accuracy Score
 0.9251459310976308
 RF F1 Score
@@ -24,7 +24,8 @@ RF Recall Score
 0.9251459310976308
 
 -------------------------------
-SVM (I used only 5000 rows, time:20minutes)
+## SVM 
+(I used only 5000 rows, time:20minutes)
 SVM Accuracy Score
 0.82
 SVM F1 Score
@@ -35,7 +36,7 @@ SVM Recall Score
 0.82
 
 -------------------------------
-Logistic Regression
+## Logistic Regression
 Logistic Regression Accuracy Score
 0.7382968982488268
 Logistic Regression F1 Score
@@ -47,7 +48,7 @@ Logistic Regression Recall Score
 
 
 -------------------------------
-RandomForest with Adaboost
+## RandomForest with Adaboost
 RF HPT Accuracy Score
 0.8275151653885773
 RF HPT F1 Score
@@ -58,7 +59,7 @@ RF HPT Recall Score
 0.49884137349905205
 
 -------------------------------
-RandomForestWithGridSearch
+## RandomForestWithGridSearch
 
 RF GridSearch Accuracy Score
 0.867
@@ -71,7 +72,7 @@ RF GridSearch Recall Score
 
 
 -------------------------------
-RF with Random Search (using 2000)
+## RF with Random Search (using 2000)
 Random Search
 Random Forest with Random Search
 RF RandomSearch Accuracy Score
@@ -85,7 +86,7 @@ RF RandomSearch Recall Score
 
 
 -------------------------------
-KNN
+## KNN
 KNN Accuracy Score
 0.8122353210484148
 KNN F1 Score
